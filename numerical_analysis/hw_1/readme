@@ -4,5 +4,9 @@
     1.3. src
 
 2. command
-    2.1. ./app_exe -n <num_1>
-    <num_1> represents dimension of linear system
+    2.1. ./app_exe -n <num_1> -max_it <num_2> -rtol <num_3> -omega <num_4> -solver <str>
+        <num_1> represents dimension of linear system
+        <num_2> represents maximum iterations
+        <num_3> tolerance
+        <num_4> omega parameter in SOR iteration
+        <str>   solver type, optional choice 'lu', 'jacobi', 'gs', 'sor'
