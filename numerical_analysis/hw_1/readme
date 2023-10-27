@@ -1,0 +1,8 @@
+1. directories
+    1.1. exe
+    1.2. input
+    1.3. src
+
+2. command
+    2.1. ./app_exe -n <num_1>
+    <num_1> represents dimension of linear system
