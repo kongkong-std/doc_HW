@@ -20,9 +20,9 @@ int main(int argc, char **argv)
         }
     }
 
-    if(strstr(method, "trapezoid"))
+    if (strstr(method, "trapezoid"))
     {
-        if(strstr(problem, "task_1"))
+        if (strstr(problem, "task_1"))
         {
             TrapezoidIntegral(numEle, Task1Value);
         }
@@ -31,9 +31,9 @@ int main(int argc, char **argv)
             TrapezoidIntegral(numEle, Task2Value);
         }
     }
-    else
+    else if (strstr(method, "simpson"))
     {
-        if(strstr(problem, "task_1"))
+        if (strstr(problem, "task_1"))
         {
             SimpsonIntegral(numEle, Task1Value);
         }
