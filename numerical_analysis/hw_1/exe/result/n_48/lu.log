@@ -1,0 +1,9 @@
+==== test ====
+n_dim = 48
+max_it = 1000, rtol = 1.00e-06
+sor_omega = 1.50
+solver type = "lu"
+
+==== solver ====
+solve with lu
+|| sol - ana_sol || _ 2 = 03.59198295597887e+02
